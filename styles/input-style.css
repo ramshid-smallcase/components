@@ -8,7 +8,7 @@ fieldset {
 
 fieldset label {
     display: block;
-    color: #2f363f;
+    color: #535b62;
 }
 
 fieldset span {
@@ -18,7 +18,7 @@ fieldset span {
 }
 
 input {
-    font-family: 'Graphik-Web-Regular';
+    font-family: "Graphik Web Regular";
     width: 100%;
     border-radius: 4px;
     border: 1px solid rgba(83, 91, 98, .25);
@@ -34,6 +34,11 @@ input:focus {
     border: 1px solid rgba(31, 122, 224, .6);
 }
 
+.highlight:hover i.highlight {
+    color: #2f363f;
+    -webkit-transition: all 0.15s;
+}
+
 .error input {
     border: 1px solid rgba(255, 89, 66, .6)
 }
@@ -43,7 +48,7 @@ input:focus {
 input:disabled, fieldset:disabled input {
     background: rgba(129, 136, 141, 0.09);
     border: 1px solid rgba(83, 91, 98, .25);
-    cursor: default;
+    cursor: not-allowed;
 }
 
 fieldset:disabled i {
@@ -67,7 +72,7 @@ input::placeholder {
 }
 
 .ipt-md input {
-    padding: 10px 16px;
+    padding: 10px;
     font-size: 16px;
 }
 
@@ -152,7 +157,7 @@ i.suffix-icon {
 
 .ipt-md label {
     margin-bottom: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .ipt-sm label {

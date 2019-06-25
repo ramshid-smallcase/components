@@ -5,8 +5,25 @@
     padding: 0;
 }
 
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 100vw;
+}
+
+div {
+    display: block;
+}
+
 body {
     font-family: "Graphik Web Regular";
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3 {
@@ -14,13 +31,18 @@ h1, h2, h3 {
     font-style: normal;
     font-stretch: normal;
     font-weight: normal;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.5px;
 }
 
 h1 {
     font-family: "Graphik Web Regular";
     font-size: 40px;
     margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: "Graphik Web Medium";
 }
 
 p {
@@ -30,8 +52,22 @@ p {
     margin-bottom: 12px;
 }
 
+.text-14 {
+    font-size: 14px;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.row{
+    width:100%;
+    float: left;
+    position: relative;
+}
+
 .container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -41,6 +77,18 @@ p {
 
 .mb-24 {
     margin-bottom: 24px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-16 {
+    margin-top: 16px;
 }
 
 .mt-24 {
@@ -55,10 +103,53 @@ p {
     margin-top: 16px;
 }
 
+.mr-24{
+    margin-right: 24px;
+}
+
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
 /*code styling*/
 
 code {
     background: red;
     border: 1px solid blue;
     padding: 12px;
+}
+
+:root {
+    --default-color: #1f7ae0;
+    --success-color: #27bc94;
+    --danger-color: #d82f44;
+    --text-white: #ffffff;
+    --text-dark: #2f363f;
+    --text-normal: #535b62;
+    --text-light: #81878c;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+}
+
+.flex-center {
+    justify-content: space-between;
+}
+
+.aside {
+    width: 256px;
+    float: right;
+}
+
+.error-message {
+    margin: 4px 0 0 0;
+    color: #ff5942;
+}
+
+.display-none{
+    display: none;
 }

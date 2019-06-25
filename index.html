@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>smallcase system</title>
-    <link rel="stylesheet" href="styles/icomoon.css">
-    <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/input-style.css">
-    <link rel="stylesheet" href="styles/global-style.css">
-    <link rel="stylesheet" href="styles/page-style.css">
+    <link rel="stylesheet" href="./styles/icomoon.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/input-style.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/global-style.css">
+    <link rel="stylesheet" href="./styles/page-style.css">
 </head>
 <body>
-    <div class="container mt-32">
+    <div class="container mt-32 mb-40">
         <h1>Input fields</h1>
         <p>The < input > tag specifies an input field where the user can enter data. < input > elements are used within a < form > element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute.</p>
 
@@ -65,38 +66,141 @@
                     <input type="text">
                 </span>
             </fieldset>
-            
     </div>
-<!--     
-    <fieldset class="ipt-lg ipt-icon-both name-field mb-16">
-                <label>Enter your name</label>
-                <span class="demo">
-                    <i class="prefix-icon icon-calendar"></i>
-                    <i class="suffix-icon toggle icon-chevron-down rotate-180"></i>
-                    <input type="button">
+    </div>
+
+<div class="container">
+<h1>Button</h1>
+<p>The < input> tag specifies an input field where the user can enter data. < input> elements are used within a < form>
+                element to declare input controls that allow users to input data. An input field can vary in many ways,
+                depending on the type attribute.</p>
+    <div class="btn-inline-cont">
+        <button class="btn-default-secondary btn-lg">Amount</button>
+        <button class="btn-success-secondary btn-md">Amount</button>
+        <button class="btn-default-secondary btn-sm">Sign Up</button>
+        <button class="btn-default-secondary btn-xs">Sign Up</button>
+        <button class="btn-default-tertiary btn-xs">Sign Up</button>
+    
+    </div>
+</div>
+
+
+<div class="row mt-32">
+    <div class="container">
+
+<div class="start-subscription mb-24 mr-24">
+    <div class="head-section  pb-12">
+        <div class="diamond-icon">
+            <i class="icon-diamond"></i>
+        </div>
+        <div class="head-content">
+            <h3>Start Subscription</h3>
+            <sub>Share contact details</sub>
+        </div>
+    </div>
+    <div class="form-content mt-12">
+    <p class="text-14">The advisory fees start as low as ₹101 monthly.</p>
+    <form action="">
+        <fieldset class="ipt-md name-field mb-16">
+            <label for="">Name</label>
+            <span>
+                <input type="text" placeholder="Eg: Rahul Arora">
+            </span>
+        </fieldset>
+
+        <fieldset class="ipt-md email-field mb-16 error">
+            <label for="">Email</label>
+            <span>
+                <input type="text" placeholder="Eg: rahul@example.com">
+            </span>
+            <p class="error-message text-12">Please enter a valid email address</p>
+        </fieldset>
+        <fieldset class="ipt-md phone-field mb-16">
+            <label for="">Phone Number</label>
+            <span>
+                <input class="country-code" type="text" placeholder="+91" value="+91">
+                <input class="phone" type="text" placeholder="9876543210">
+            </span>
+        </fieldset>
+        <button class="btn-default-primary btn-md btn-full-width">Continue</button>
+    </form>
+</div>
+</div>
+
+<div class="start-subscription mb-24  mr-24">
+    <div class="head-section  pb-12">
+        <div class="diamond-icon">
+            <i class="icon-diamond"></i>
+        </div>
+        <div class="head-content">
+            <h3>Start Subscription</h3>
+            <sub>Share contact details</sub>
+        </div>
+    </div>
+    <div class="form-content mt-12">
+        <p class="text-14">The advisory fees start as low as ₹101 monthly.</p>
+        <form action="">
+            <fieldset class="ipt-sm name-field mb-16">
+                <label for="">Name</label>
+                <span>
+                    <input type="text" placeholder="Eg: Rahul Arora">
                 </span>
-                <div class="dropdown">
-                    <input type="radio" name="gender" value="male" checked> Male<br>
-                    <input type="radio" name="gender" value="male" checked> Female<br>
-                    <input type="radio" name="gender" value="male" checked> Hello<br>
-                </div>
             </fieldset>
+            <fieldset class="ipt-sm email-field mb-16">
+                <label for="">Email</label>
+                <span>
+                    <input type="text" placeholder="Eg: rahul@example.com">
+                </span>
+                <p class="error-message text-12 display-none">Please enter a valid email address</p>
+            </fieldset>
+            <fieldset class="ipt-sm phone-field mb-16">
+                <label for="">Phone Number</label>
+                <span>
+                    <input class="country-code" type="text" placeholder="+91" value="+91">
+                    <input class="phone" type="text" placeholder="9876543210">
+                </span>
+            </fieldset>
+            <button class="btn-default-primary btn-sm btn-full-width">Continue</button>
+        </form>
+    </div>
+</div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $("span.demo").click(function () {
-            $("div.dropdown").toggleClass("display-none");
-        });
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $("span.demo").click(function () {
-            $("i.toggle").toggleClass("rotate-180");
-        });
-    });
-</script> -->
+<div class="start-subscription mb-24">
+    <div class="form-content">
+        <p class="text-14">Input types.</p>
+        <form action="">
+            <fieldset class="ipt-sm ipt-icon-right name-field mb-16" disabled>
+                <label for="">Disabled: icon-right</label>
+                <span>
+                    <i class="suffix-icon icon-chevron-down"></i>
+                    <input type="text" placeholder="Eg: Rahul Arora" value="Karnataka">
+                </span>
+            </fieldset>
+            <fieldset class="ipt-sm ipt-icon-both email-field mb-16">
+                <label for="">Dropdown: icon-both</label>
+                <span class="highlight">
+                    <i class="prefix-icon icon-rupee-filter"></i>
+                    <i class="suffix-icon icon-chevron-down highlight"></i>
+                    <input type="text" placeholder="Min. investment" value="Min. investment">
+                </span>
+                <p class="error-message text-12 display-none">Please enter a valid email address</p>
+            </fieldset>
+            <fieldset class="ipt-sm phone-field mb-16">
+                <label for="">Width manually applied</label>
+                <span>
+                    <input class="country-code" type="text" placeholder="+91" value="+91">
+                    <input class="phone" type="text" placeholder="9876543210">
+                </span>
+            </fieldset>
+            <button class="btn-default-primary btn-sm btn-full-width">Continue</button>
+        </form>
+    </div>
+</div>
+
+
+</div>
+</div>
+
 </body>
 </html>

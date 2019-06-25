@@ -42,7 +42,62 @@
     color: #1f7ae0;
 }
 
-input [type=number], 
-input [type=tel] {
+input [type=number], input [type=tel] {}
 
+.start-subscription {
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2), 0 4px 10px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2), 0 4px 10px 0 rgba(0, 0, 0, .05);
+    width: 256px;
+    border-radius: 4px;
+    padding: 16px;
+    float: left;
+}
+
+.head-section {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #dde0e4;
+}
+
+.diamond-icon {
+    width: 32px;
+    height: 32px;
+    background: var(--default-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 8px;
+}
+
+.head-content {
+    float: left;
+}
+
+sub {
+    display: block;
+    margin-top: 2px;
+    color: #81878c;
+}
+
+.icon-diamond:before {
+    color: white;
+}
+
+.form-content{
+    width: 100%;
+    float: left;
+}
+
+
+
+input.country-code {
+    width: 30%;
+    margin-right: 8px;
+}
+
+span.phone {
+    width: 80%;
 }
