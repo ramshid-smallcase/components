@@ -132,13 +132,13 @@ i.suffix-icon {
 }
 
 .ipt-sm i.prefix-icon {
-    left: 4px;
+    left: 8px;
     width: 16px;
     height: 16px;
 }
 
 .ipt-sm i.suffix-icon {
-    right: 4px;
+    right: 8px;
     width: 16px;
     height: 16px;
 }
