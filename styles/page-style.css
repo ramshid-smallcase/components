@@ -1,35 +1,11 @@
 .signup-form {
     width: 360px;
     height: auto;
-
 }
 
 .name-field .prefix-icon {
     color: #81878c;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*--------dropdown--------*/
 
@@ -64,4 +40,9 @@
 .rotate-180 {
     transform: rotate(180deg);
     color: #1f7ae0;
+}
+
+input [type=number], 
+input [type=tel] {
+
 }
