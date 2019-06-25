@@ -1,0 +1,68 @@
+.signup-form {
+    width: 360px;
+    height: auto;
+    padding: 12px;
+
+}
+
+.name-field .prefix-icon {
+    color: #81878c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------dropdown--------*/
+
+.dropdown {
+    width: 100%;
+    position: absolute;
+    margin-top: 4px;
+    outline: none;
+    top: 100%;
+    left: 0;
+    z-index: 4;
+    padding: 8px 16px 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .15), 0 1px 2px 0 rgba(0, 0, 0, .07), 0 0 1px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .15), 0 1px 2px 0 rgba(0, 0, 0, .07), 0 0 1px 0 rgba(0, 0, 0, .2);
+}
+
+.display-none {
+    display: none;
+}
+
+.toggle {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: -webkit-transform .3s cubic-bezier(.25, .46, .45, .94);
+    transition: -webkit-transform .3s cubic-bezier(.25, .46, .45, .94);
+    transition: transform .3s cubic-bezier(.25, .46, .45, .94);
+    transition: transform .3s cubic-bezier(.25, .46, .45, .94), -webkit-transform .3s cubic-bezier(.25, .46, .45, .94);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    color: #1f7ae0;
+}

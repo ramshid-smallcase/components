@@ -1,0 +1,426 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?84wpzf');
+  src: url('fonts/icomoon.eot?84wpzf#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?84wpzf') format('truetype'), url('fonts/icomoon.woff?84wpzf') format('woff'), url('fonts/icomoon.svg?84wpzf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#81878c;
+}
+
+
+.icon-diamond:before {
+  content: "\e95b";
+  color: #1f7ae0;
+}
+
+.icon-loading-progress:before {
+  content: "\e95a";
+  color: #1f7ae0;
+}
+
+.icon-android:before {
+  content: "\e951";
+}
+
+.icon-facebook:before {
+  content: "\e952";
+}
+
+.icon-instagram:before {
+  content: "\e953";
+}
+
+.icon-linkedin:before {
+  content: "\e954";
+}
+
+.icon-mail:before {
+  content: "\e955";
+}
+
+.icon-monitor:before {
+  content: "\e956";
+}
+
+.icon-phone:before {
+  content: "\e957";
+}
+
+.icon-twitter:before {
+  content: "\e958";
+}
+
+.icon-youtube:before {
+  content: "\e959";
+}
+
+.icon-bank:before {
+  content: "\e950";
+  color: #535b62;
+}
+
+.icon-chat:before {
+  content: "\e94f";
+}
+
+.icon-open-in-sidebar:before {
+  content: "\e90a";
+}
+
+.icon-check_filled-circle:before {
+  content: "\e908";
+  color: #1f7ae0;
+}
+
+.icon-low-investment-amt:before {
+  content: "\e94e";
+  color: #27bc94;
+}
+
+.icon-undervalued:before {
+  content: "\e94a";
+  color: #39c0ff;
+}
+
+.icon-more-returns:before {
+  content: "\e94d";
+  color: #19af55;
+}
+
+.icon-arrow-green-circle:before {
+  content: "\e902";
+  color: #4db764;
+}
+
+.icon-arrow-red-circle:before {
+  content: "\e94c";
+  color: #d82f44;
+}
+
+.icon-budget-special:before {
+  content: "\e94b";
+  color: #27bc94;
+}
+
+.icon-dropdown-up:before {
+  content: "\e949";
+}
+
+.icon-zero_change:before {
+  content: "\e948";
+  color: #c0c3c5;
+}
+
+.icon-checkmark:before {
+  content: "\e947";
+  color: #1f7ae0;
+}
+
+.icon-watchlisted:before {
+  content: "\e946";
+  color: #1f7ae0;
+}
+
+.icon-invested:before {
+  content: "\e931";
+  color: #27bc94;
+}
+
+.icon-thumbs_up_filled:before {
+  content: "\e900";
+  color: #28c39a;
+}
+
+.icon-add:before {
+  content: "\e901";
+}
+
+.icon-calendar:before {
+  content: "\e903";
+}
+
+.icon-camera:before {
+  content: "\e904";
+}
+
+.icon-caret_down:before {
+  content: "\e905";
+  color: #d82f44;
+}
+
+.icon-caret_up:before {
+  content: "\e906";
+  color: #19af55;
+}
+
+.icon-change_column:before {
+  content: "\e907";
+}
+
+.icon-checkbox-active:before {
+  content: "\e90b";
+  color: #1f7ae0;
+}
+
+.icon-checkbox:before {
+  content: "\e90c";
+  color: #c2c5c8;
+}
+
+.icon-chevron-down:before {
+  content: "\e90d";
+}
+
+.icon-chevron-left:before {
+  content: "\e90e";
+}
+
+.icon-chevron-right:before {
+  content: "\e90f";
+}
+
+.icon-chevron-up:before {
+  content: "\e910";
+}
+
+.icon-close:before {
+  content: "\e911";
+}
+
+.icon-create:before {
+  content: "\e912";
+}
+
+.icon-delete:before {
+  content: "\e913";
+}
+
+.icon-details:before {
+  content: "\e914";
+}
+
+.icon-drafts:before {
+  content: "\e915";
+}
+
+.icon-drag:before {
+  content: "\e916";
+}
+
+.icon-dropdown:before {
+  content: "\e917";
+}
+
+.icon-edit:before {
+  content: "\e918";
+  color: #81878c;
+}
+
+.icon-embed:before {
+  content: "\e919";
+}
+
+.icon-error:before {
+  content: "\e91a";
+  color: #ff5942;
+}
+
+.icon-exit:before {
+  content: "\e91b";
+}
+
+.icon-explore:before {
+  content: "\e91c";
+}
+
+.icon-export:before {
+  content: "\e91d";
+}
+
+.icon-fees:before {
+  content: "\e91e";
+}
+
+.icon-filter:before {
+  content: "\e91f";
+}
+
+.icon-help:before {
+  content: "\e920";
+  color: #81878c;
+}
+
+.icon-home:before {
+  content: "\e921";
+}
+
+.icon-info:before {
+  content: "\e922";
+  color: #81878c;
+}
+
+.icon-investments:before {
+  content: "\e923";
+}
+
+.icon-lock:before {
+  content: "\e924";
+}
+
+.icon-manage:before {
+  content: "\e925";
+}
+
+.icon-minus:before {
+  content: "\e926";
+}
+
+.icon-mmi:before {
+  content: "\e927";
+  color: #ff8f42;
+}
+
+.icon-low-risk:before {
+  content: "\e909";
+  color: #ff8f42;
+}
+
+.icon-new_star:before {
+  content: "\e928";
+  color: #1f7ae0;
+}
+
+.icon-notification:before {
+  content: "\e929";
+}
+
+.icon-open-in-new:before {
+  content: "\e92a";
+}
+
+.icon-orders:before {
+  content: "\e92b";
+}
+
+.icon-overflow_horizontal:before {
+  content: "\e92c";
+}
+
+.icon-overflow_vertical:before {
+  content: "\e92d";
+}
+
+.icon-partial-exit:before {
+  content: "\e92e";
+}
+
+.icon-profile:before {
+  content: "\e92f";
+}
+
+.icon-radio-active:before {
+  content: "\e930";
+  color: #1f7ae0;
+}
+
+.icon-radio:before {
+  content: "\e932";
+  color: #c2c5c8;
+}
+
+.icon-rebalance:before {
+  content: "\e933";
+  color: #9f7aff;
+}
+
+.icon-refresh:before {
+  content: "\e934";
+}
+
+.icon-reminder:before {
+  content: "\e935";
+  color: #ff5942;
+}
+
+.icon-repair:before {
+  content: "\e936";
+  color: #fdcd53;
+}
+
+.icon-reset:before {
+  content: "\e937";
+}
+
+.icon-rupee-filter:before {
+  content: "\e938";
+}
+
+.icon-save:before {
+  content: "\e939";
+}
+
+.icon-search:before {
+  content: "\e93a";
+}
+
+.icon-select:before {
+  content: "\e93b";
+  color: #f4c55b;
+}
+
+.icon-settings:before {
+  content: "\e93c";
+}
+
+.icon-SIP:before {
+  content: "\e93d";
+  color: #1a9dd8;
+}
+
+.icon-sort_down:before {
+  content: "\e93e";
+}
+
+.icon-sort_up:before {
+  content: "\e93f";
+}
+
+.icon-success-green:before {
+  content: "\e940";
+  color: #19af55;
+}
+
+.icon-track:before {
+  content: "\e941";
+}
+
+.icon-unlock:before {
+  content: "\e942";
+}
+
+.icon-upload:before {
+  content: "\e943";
+}
+
+.icon-warning:before {
+  content: "\e944";
+  color: #fdcd53;
+}
+
+.icon-watchlist:before {
+  content: "\e945";
+}

@@ -1,0 +1,174 @@
+fieldset {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+}
+
+fieldset label {
+    display: block;
+    color: #2f363f;
+}
+
+fieldset span {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    font-family: 'Graphik-Regular';
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(83, 91, 98, .25);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    color: #2f363f;
+}
+
+/*------------ states ------------*/
+
+input:focus {
+    border: 1px solid rgba(31, 122, 224, .6);
+}
+
+.error input {
+    border: 1px solid rgba(255, 89, 66, .6)
+}
+
+/*by making fieldset disabled we can change icon class also to disabled ::thinking::*/
+
+input:disabled, fieldset:disabled input {
+    background: rgba(129, 136, 141, 0.09);
+    border: 1px solid rgba(83, 91, 98, .25);
+    cursor: default;
+}
+
+fieldset:disabled i {
+    opacity: .4;
+}
+
+input::placeholder {
+    color: #81878c;
+    opacity: .6;
+}
+
+/*----- size -----*/
+
+.ipt-lg input {
+    padding: 15px 16px 12px 16px;
+    font-size: 20px;
+}
+
+.ipt-lg {
+    font-size: 20px;
+}
+
+.ipt-md input {
+    padding: 10px 16px;
+    font-size: 16px;
+}
+
+.ipt-md {
+    font-size: 16px;
+}
+
+.ipt-sm input {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.ipt-sm {
+    font-size: 14px;
+}
+
+/*----- input icons -----*/
+
+.ipt-lg.ipt-icon input, .ipt-md.ipt-icon input {
+    padding-left: 40px;
+}
+
+.ipt-lg.ipt-icon-both input, .ipt-md.ipt-icon-both input {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ipt-lg.ipt-icon-right input, .ipt-md.ipt-icon-right input {
+    padding-right: 40px;
+}
+
+.ipt-sm.ipt-icon input {
+    padding-left: 32px;
+}
+
+.ipt-sm.ipt-icon-both input {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.ipt-sm.ipt-icon-right input {
+    padding-right: 32px;
+}
+
+/*------ icon setup ------*/
+
+i.prefix-icon, i.suffix-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+i.prefix-icon {
+    left: 8px;
+}
+
+i.suffix-icon {
+    right: 8px;
+}
+
+.ipt-sm i.prefix-icon {
+    left: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.ipt-sm i.suffix-icon {
+    right: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+/*------------ label ------------*/
+
+.ipt-lg label {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.ipt-md label {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.ipt-sm label {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+/*
+
+1. Each input field is contained within the <fieldset> HTMLtag
+2. Adding .ipt-lg, .ipt-md, .ipt-sm to <fieldset> will make the input field large, medium or small
+3. To place icon on one or both side,  icon or both Input field is contained within a span, if we need to add icons  
+
+Each input field is covered in a HTML tag <fieldset> We can give .ipt-lg .ipt-md .ipt-sm
+class to this tag to make the input field large, medium or small. 
+
+
+
+*/

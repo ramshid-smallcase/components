@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Graphik-Regular';
+    src: url('fonts/Graphik-Regular');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik-Medium';
+    src: url('fonts/Graphik-medium');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik-Semibold';
+    src: url('fonts/Graphik-Semibold');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Graphik-Regular';
+}
+
+h1, h2, h3 {
+    color: #2f363f;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: normal;
+    letter-spacing: -0.7px;
+}
+
+h1 {
+    font-family: 'Graphik-Semibold';
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.45;
+    color: #535b62;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+
+
+
+/*code styling*/
+
+code{
+    background:red;
+    border: 1px solid blue;
+    padding:12px;
+}
